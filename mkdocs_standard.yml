@@ -1,0 +1,41 @@
+site_name: Sample documentation
+site_url: https://qbee.io
+site_description: Documentation for my awesome product
+site_author: qbee AS
+use_directory_urls: false
+
+
+# Configuration
+#extra_css:
+#    - 'css/extra.css'
+
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  logo: 'images/qbee.svg'
+  favicon: 'images/favicon.ico'
+
+# Copyright
+copyright: 'Copyright &copy; 2017 - 2021 qbee AS'
+
+nav:
+    - Introduction: index.md
+    - Getting started:
+        - Overview: overview.md
+    - Functions:
+        - Dashboard: dashboard.md
+        
+markdown_extensions:
+  - admonition
+
+plugins:
+    - search:
+        lang: en
+
+

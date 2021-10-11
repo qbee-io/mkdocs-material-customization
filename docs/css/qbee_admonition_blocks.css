@@ -1,0 +1,141 @@
+/* customizing admonitions boxes in
+ * https://squidfunk.github.io/mkdocs-material/reference/admonitions/
+ *
+ */
+
+.md-typeset .admonition.tip,
+
+.md-typeset details.tip {
+  border-color: var(--color-success-500);
+}
+
+.md-typeset .tip > .admonition-title,
+.md-typeset .tip > summary {
+  background-color: var(--color-success-transparent-500);
+  border-color: var(--color-success-500);
+
+}
+
+.md-typeset .tip > .admonition-title::before,
+.md-typeset .tip > summary::before {
+  background-color: var(--color-success-500);
+
+}
+
+
+.md-typeset .admonition.important,
+
+.md-typeset details.important {
+  border-color: var(--color-success-500);
+}
+
+.md-typeset .important > .admonition-title,
+.md-typeset .important > summary {
+  background-color: var(--color-success-transparent-500);
+  border-color: var(--color-success-500);
+
+}
+
+.md-typeset .important > .admonition-title::before,
+.md-typeset .important > summary::before {
+  background-color: var(--color-success-500);
+
+}
+
+
+.md-typeset .admonition.info,
+
+.md-typeset details.info {
+  border-color: var(--color-info-blue);
+}
+
+.md-typeset .info > .admonition-title,
+.md-typeset .info > summary {
+  background-color: var(--color-info-blue-transparent);
+  border-color: var(--color-info-blue);
+
+}
+
+.md-typeset .info > .admonition-title::before,
+.md-typeset .info > summary::before {
+  background-color: var(--color-info-blue);
+
+}
+
+.md-typeset .admonition.example,
+
+.md-typeset details.example {
+  border-color: var(--color-info-700);
+}
+
+.md-typeset .example > .admonition-title,
+.md-typeset .example > summary {
+  background-color: var(--color-info-transparent-700);
+  border-color: var(--color-info-700);
+
+}
+
+.md-typeset .example > .admonition-title::before,
+.md-typeset .example > summary::before {
+  background-color: var(--color-info-700);
+
+}
+
+
+.md-typeset .admonition.note,
+
+.md-typeset details.note {
+  border-color: var(--color-info-300);
+}
+
+.md-typeset .note > .admonition-title,
+.md-typeset .note > summary {
+  background-color: var(--color-info-transparent-300);
+  border-color: var(--color-info-300);
+
+}
+
+.md-typeset .note > .admonition-title::before,
+.md-typeset .note > summary::before {
+  background-color: var(--color-info-300);
+
+}
+
+.md-typeset .admonition.abstract,
+
+.md-typeset details.abstract {
+  border-color: var(--color-info-blue);
+}
+
+.md-typeset .abstract > .admonition-title,
+.md-typeset .abstract > summary {
+  background-color: var(--color-info-blue-transparent);
+  border-color: var(--color-info-blue);
+
+}
+
+.md-typeset .abstract > .admonition-title::before,
+.md-typeset .abstract > summary::before {
+  background-color: var(--color-info-blue);
+
+}
+
+
+.md-typeset .admonition.warning,
+
+.md-typeset details.warning {
+  border-color: var(--color-warning-500);
+}
+
+.md-typeset .warning > .admonition-title,
+.md-typeset .warning > summary {
+  background-color: var(--color-warning-transparent-500);
+  border-color: var(--color-warning-500);
+
+}
+
+.md-typeset .warning > .admonition-title::before,
+.md-typeset .warning > summary::before {
+  background-color: var(--color-warning-500);
+
+}

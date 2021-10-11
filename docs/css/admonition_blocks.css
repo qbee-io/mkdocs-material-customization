@@ -1,0 +1,108 @@
+/* customizing admonitions boxes in
+ * https://squidfunk.github.io/mkdocs-material/reference/admonitions/
+ *
+ */
+
+
+ /*** EXAMPLE BOX ***/
+.md-typeset .admonition.note,
+.md-typeset details.note {
+  border-color: var(--color-info-dark-blue);
+}
+
+.md-typeset .note > .admonition-title,
+.md-typeset .note > summary {
+  background-color: var(--color-info-dark-blue-transparent);
+  border-color: var(--color-info-dark-blue);
+}
+
+.md-typeset .note > .admonition-title::before,
+.md-typeset .note > summary::before {
+  background-color: var(--color-info-dark-blue);
+}
+
+
+/*** ABSTRACT & INFO BOX ***/
+.md-typeset .admonition.abstract,
+.md-typeset details.abstract,
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-color: var(--color-info-blue);
+}
+
+.md-typeset .abstract > .admonition-title,
+.md-typeset .abstract > summary,
+.md-typeset .info > .admonition-title,
+.md-typeset .info > summary {
+  background-color: var(--color-info-blue-transparent);
+}
+
+.md-typeset .abstract > .admonition-title::before,
+.md-typeset .info > .admonition-title::before{
+  background-color: var(--color-info-blue);
+}
+
+
+ /* SUCCESS & TIP BOX*/
+.md-typeset .admonition.success,
+.md-typeset details.success,
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-color: var(--color-success-green);
+}
+
+.md-typeset .success > .admonition-title,
+.md-typeset .success > summary,
+.md-typeset .tip > .admonition-title,
+.md-typeset .tip > summary {
+  background-color: var(--color-success-green-transparent);
+}
+
+.md-typeset .success > .admonition-title::before,
+.md-typeset .tip > .admonition-title::before {
+  background-color: var(--color-success-green);  
+}
+
+/**** WARNING BOX ****/
+.md-typeset .admonition.warning,
+.md-typeset details.warning {
+  border-color: var(--color-warning-yellow);
+}
+
+.md-typeset .warning > .admonition-title,
+.md-typeset .warning > summary {
+  background-color: var(--color-warning-yellow-transparent);
+}
+
+.md-typeset .warning > .admonition-title::before {
+  background-color: var(--color-warning-yellow);
+}
+
+/* FAILURE & DANGER BOX*/
+.md-typeset .admonition.failure,
+.md-typeset details.failure,
+.md-typeset .admonition.danger,
+.md-typeset details.danger {
+  border-color: var(--color-danger-red);
+}
+
+.md-typeset .failure > .admonition-title,
+.md-typeset .failure > summary,
+.md-typeset .danger > .admonition-title,
+.md-typeset .danger > summary {
+  background-color: var(--color-danger-red-transparent);
+}
+
+.md-typeset .failure > .admonition-title::before,
+.md-typeset .danger > .admonition-title::before {
+  background-color: var(--color-danger-red);  
+}
+
+
+
+
+
+
+
+
+

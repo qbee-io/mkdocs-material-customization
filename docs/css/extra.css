@@ -1,0 +1,24 @@
+@import "custom_colors.css";
+@import "admonition_blocks.css";
+:root {
+    /* main color */
+    --md-primary-fg-color: var(--color-primary-500);
+    /* hover color */
+    --md-accent-fg-color: var(--color-info-400);
+    /* color abbreviations */
+    --color-info-blue: var(--color-info-500);
+    --color-info-blue-transparent: var(--color-info-transparent-500);
+    --color-info-dark-blue: var(--color-info-700);
+    --color-info-dark-blue-transparent: var(--color-info-transparent-200);
+    --color-success-green: var(--color-success-500);
+    --color-success-green-transparent: var(--color-success-transparent-500);
+    --color-warning-yellow: var(--color-warning-500);
+    --color-warning-yellow-transparent: var(--color-warning-transparent-500);
+    --color-danger-red: var(--color-danger-500);
+    --color-danger-red-transparent: var(--color-danger-transparent-500);
+}
+
+.md-content {
+    /* link color */
+    --md-typeset-a-color: var(--color-info-600);
+}
